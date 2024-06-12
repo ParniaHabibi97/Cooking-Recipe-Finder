@@ -1,5 +1,5 @@
-const appId = 'b61b4860';
-const appKey = '69c4c0519ab51eb5ef25880dd8a41dc4';
+const appId = '';
+const appKey = '';
 
 document.getElementById('recipe-form').addEventListener('submit', function(event) {
     event.preventDefault();

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input, button {
+            margin: 5px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cooking AI</h1>
+    <form id="ingredientForm">
+        <label for="ingredients">Enter ingredients (comma separated):</label><br>
+        <input type="text" id="ingredients" name="ingredients" required><br>
+        <button type="submit">Generate Image</button>
+    </form>
+    <div id="result">
+        <h2>Generated Image:</h2>
+        <img id="foodImage" src="" alt="Food Image">
+    </div>
+    <script src="newrecipe.js"></script>
+</body>
+</html>
