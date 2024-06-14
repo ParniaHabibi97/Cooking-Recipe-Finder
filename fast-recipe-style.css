@@ -2,6 +2,12 @@ body{
     background-image: url(assets/img/bg.jpg);
 }
 
+.card{
+  border-color: rgb(223, 139, 167);
+  border-radius: 17px;
+  box-shadow:  7px 7px 7px rgba(150, 107, 143, 0.7);
+}
+
 .card-img-top{
-  
+    border-radius: 17px;
 }
