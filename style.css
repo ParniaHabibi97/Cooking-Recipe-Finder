@@ -7,6 +7,15 @@ body {
 #recipes .card {
     margin: 10px;
 }
+
+.card{
+border-radius: 17px;
+}
+
+.card-img-top{
+  border-radius: 14px;
+}
+
 .form-control{
     border-radius: 17px;
     border-color:#ff9bd7;
